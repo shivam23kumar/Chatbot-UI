@@ -64,6 +64,10 @@ body{
     background-color: white;
 }
 
+.heading h6{
+    font-size: x-large;
+}
+
 .bottom .content{
     text-align: center;
     border: 1px solid #E4E4E4;
@@ -160,7 +164,7 @@ body{
     margin-right:10px;
 }
 
-button{
+.button{
     margin-top: 4vh;
     margin-left: 20%;
     margin-right: 20%;
