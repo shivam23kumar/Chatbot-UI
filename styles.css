@@ -80,7 +80,7 @@ body{
     margin-right: 5vh;
     height: 50%;
     background-color: white;
-    animation: content 7s;
+    animation: bottom 7s;
 }
 
 .heading h6{
