@@ -38,12 +38,13 @@ body{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-    
+    animation: h52 3s;
+}
 .body-header h6{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-   
+    animation: h63 4s;
     
     
 }
@@ -51,6 +52,7 @@ body{
     margin: 1vh;
     font-size: large;
     padding: auto;
+    animation: p2 5s;
 }
 
 
@@ -211,8 +213,6 @@ body{
     
 }
 
-/* keyframes for animation */
-
 @keyframes try{
     from{
         margin-top:100%;
@@ -284,7 +284,30 @@ body{
     }
 }
 
-
+@keyframes p2{
+    from{
+        margin-top:100%;
+    }
+    to{
+        margin-top:0%;
+    }
+}
+@keyframes h63{
+    from{
+        margin-top:100%;
+    }
+    to{
+        margin-top:0%;
+    }
+}
+@keyframes h52{
+    from{
+        margin-top:100%;
+    }
+    to{
+        margin-top:0%;
+    }
+}
 @keyframes top{
     from{
         margin-top:100%;
@@ -327,10 +350,19 @@ body{
      }
     #my-img img{
         margin-top: 10vh;
-        
+        animation-name: button;
+        animation-duration:14s;
+        animation-iteration-count:1;
         
      }
-    
+     @keyframes try{
+        from{
+            margin-top:100%;
+        }
+        to{
+            margin-top:10vh;
+        }
+    }
 
     .bottom{
          position: fixed;
@@ -341,6 +373,14 @@ body{
          padding-top: 300px;
     
     }
-   
+    @keyframes header{
+        from{
+            margin-top:100%;
+        }
+        to{
+            margin-top:-10vh;
+        }
+    }
+
  }
 
