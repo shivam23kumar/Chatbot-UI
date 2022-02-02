@@ -193,6 +193,9 @@ button{
          font-size: small;
          margin-top: 20%;
      }
+     #my-img img{
+        margin-top: 10vh;
+     }
      .bottom{
          margin-top: -10vh;
      }
