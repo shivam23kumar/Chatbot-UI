@@ -313,19 +313,26 @@ body{
      }
     #my-img img{
         margin-top: 10vh;
-        
-        
+        animation:try1 4s;    
      }
+
+    @keyframes try1{
+        from{
+            margin-top:100%;
+        }
+        to{
+            margin-top:10vh;
+        }
+    }
     
 
     .bottom{
         
          margin-top: -10vh;
-     }
+    }
     
     header{
          padding-top: 300px;
-    
     }
    
 
