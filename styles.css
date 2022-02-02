@@ -307,7 +307,7 @@ body{
 
  @media only screen and (max-width:568px){
     .heading{
-        font-size: x-large;
+        font-size: large;
         margin-top: 20%;
         animation: heading1 8s;
      }
