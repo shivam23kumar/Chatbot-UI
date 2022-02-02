@@ -11,8 +11,7 @@ body{
 
 .body-header{
     color: white;
-    margin-left: 20vh;
-    font-size: xx-large;
+    margin-left: 15%;
     padding: 20px;
 }
 .body-header h5{
@@ -54,9 +53,8 @@ body{
     height: 12rem;
     width: 12rem;
     margin: auto;
-    margin-top: -2vh;
+
     margin-left: 10vh;
-    
 
 }
 #my-img img{
@@ -73,31 +71,33 @@ body{
     border-radius: 8px;
 } 
 
-.content h6{
-    font-size: x-large;
-}
-
-.form{
-    display: grid;
-    justify-content: center;
+.content{
+    
     border: 1px solid #E4E4E4;
     box-sizing: border-box;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     position: relative;
+    height: 100%;
     
 }
+
+.content h6{
+    font-size: x-large;
+}
+
+
 .heading{
     margin-top: 4vh;
     /* margin-right: 45vh; */
 }
 
 .content .ques1{
-    height: 50px;
+   
     margin-top: 4vh;
-    font-size: x-large;
+    font-size: large;
     background-color: whitesmoke;
-    width: 600px;
+    
     border-radius: 10px 10px 10px 10px;
     padding-top: 6px;
     background: #FFFFFF;
@@ -106,14 +106,14 @@ body{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     
+    
 }
 
 .content .ques2{
-    height: 50px;
+    
     margin-top: 4vh;
-    font-size: x-large;
+    font-size: large;
     background-color: whitesmoke;
-    width: 600px;
     border-radius: 10px 10px 10px 10px;
     padding-top: 6px;
     background: #FFFFFF;
@@ -124,12 +124,11 @@ body{
 }
 
 .content .ques3{
-    height: 50px;
     margin-top: 4vh;
     
-    font-size: x-large;
+    font-size: large;
     background-color: whitesmoke;
-    width: 600px;
+    
     border-radius: 10px 10px 10px 10px;
     padding-top: 6px;
     background: #FFFFFF;
@@ -140,12 +139,11 @@ body{
 }
 
 .content .ques4{
-    font-size: x-small;
-    height: 50px;
+    
     margin-top: 4vh;
-    font-size: x-large;
+    font-size: large;
     background-color: whitesmoke;
-    width: 600px;
+    
     border-radius: 10px 10px 10px 10px;
     padding-top: 6px;
     background: #FFFFFF;
@@ -166,13 +164,12 @@ body{
 
 button{
     margin-top: 4vh;
-    font-size: x-large;
+    font-size: large;
     height: 50px;
-    width: 350px;
     cursor: pointer;
     border-radius: 20px 20px 20px 20px;
     align-items: center;
-    margin-left: 22vh;
+    
     background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
@@ -187,4 +184,11 @@ button{
 
 
 
- 
+ @media only screen and (max-width:768px){
+     .header{
+         margin-left: 10%;
+     }
+     .heading{
+         margin-top: 10%;
+     }
+ }
