@@ -309,8 +309,18 @@ body{
     .heading{
         font-size: x-large;
         margin-top: 20%;
-         
+        animation: heading1 8s;
      }
+     @keyframes try1{
+        from{
+            margin-top:100%;
+        }
+        to{
+            margin-top:20%;
+        }
+    }
+    
+
     #my-img img{
         margin-top: 10vh;
         animation:try1 4s;    
