@@ -190,7 +190,7 @@ button{
 
  @media only screen and (max-width:568px){
      .heading{
-         
+         font-size: small;
          margin-top: 20%;
      }
      .bottom{
