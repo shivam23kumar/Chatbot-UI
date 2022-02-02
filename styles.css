@@ -322,7 +322,7 @@ body{
     
 
     #my-img img{
-        margin-top: 6vh;
+        margin-top: -2vh;
         margin-left: -4vh;
         animation:try1 4s;    
      }
