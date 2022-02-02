@@ -185,8 +185,9 @@ button{
 
  @media only screen and (max-width:568px){
      .heading{
-         font-size: small;
+         font-size: large;
          margin-top: 20%;
+         margin-left: 20%;
      }
      #my-img img{
         margin-top: 10vh;
