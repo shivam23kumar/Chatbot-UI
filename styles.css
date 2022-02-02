@@ -327,7 +327,7 @@ body{
     to{
         margin-top:0%;
     }
-/* }
+ }
 @keyframes top{
     from{
         margin-top:100%;
@@ -335,15 +335,15 @@ body{
     to{
         margin-top:0%;
     }
-} */
-/* @keyframes container{
+} 
+@keyframes container{
     from{
         margin-top:100%;
     }
     to{
         margin-top:0%;
     }
-} */
+} 
 
 
 
@@ -356,14 +356,7 @@ body{
      #my-img img{
         margin-top: 10vh;
      }
-     @keyframes try{
-        from{
-            margin-top:100%;
-        }
-        to{
-            margin-top:-3vh;
-        }
-    }
+    
      .bottom{
          margin-top: -10vh;
      }
