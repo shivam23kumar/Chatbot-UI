@@ -82,6 +82,7 @@ body{
     
 }
 
+
 .heading{
     margin-top: 4vh;
     /* margin-right: 45vh; */
@@ -187,7 +188,7 @@ button{
      .heading{
          font-size: x-large;
          margin-top: 20%;
-         margin-left: 20%;
+         margin-right: 20%;
      }
      #my-img img{
         margin-top: 10vh;
