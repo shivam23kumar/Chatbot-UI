@@ -376,6 +376,7 @@ body{
      }
      @keyframes try{
         from{
+            position:fixed;
             margin-top:100%;
         }
         to{
