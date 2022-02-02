@@ -366,17 +366,20 @@ body{
 
 
  @media only screen and (max-width:568px){
-     .heading{
+    .heading{
         font-size: x-large;
         margin-top: 20%;
          
      }
-     #my-img img{
+    #my-img img{
         margin-top: 10vh;
+        animation-name: button;
+        animation-duration:14s;
+        animation-iteration-count:1;
+        
      }
      @keyframes try{
         from{
-            position:fixed;
             margin-top:100%;
         }
         to{
@@ -384,11 +387,11 @@ body{
         }
     }
 
-     .bottom{
+    .bottom{
          position: fixed;
          margin-top: -10vh;
      }
-     @keyframes bottom{
+    @keyframes bottom{
         from{
             margin-top:100%;
         }
