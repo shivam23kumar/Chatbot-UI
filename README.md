@@ -8,3 +8,4 @@ This was an assignment provided by Cogno AI.
 
 To code this I've used HTML and CSS. The animation was also done using CSS. And the final product is hoted at Vercel. This is the [live](https://chatbot-ui-bice.vercel.app/) link to the application.
 
+![image](https://github.com/shivam23kumar/Chatbot-UI/blob/main/Chatbot.png)
