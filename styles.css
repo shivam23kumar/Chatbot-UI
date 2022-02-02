@@ -327,7 +327,7 @@ body{
     to{
         margin-top:0%;
     }
-}
+/* }
 @keyframes top{
     from{
         margin-top:100%;
@@ -335,15 +335,15 @@ body{
     to{
         margin-top:0%;
     }
-}
-@keyframes container{
+} */
+/* @keyframes container{
     from{
         margin-top:100%;
     }
     to{
         margin-top:0%;
     }
-}
+} */
 
 
 
