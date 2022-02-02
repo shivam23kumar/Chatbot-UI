@@ -385,6 +385,7 @@ body{
     }
 
      .bottom{
+         position: fixed;
          margin-top: -10vh;
      }
      @keyframes bottom{
