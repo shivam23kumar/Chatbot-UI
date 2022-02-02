@@ -214,7 +214,7 @@ body{
     animation: button 20s;
     
 }
-
+/* 
 @keyframes try{
     from{
         margin-top:100%;
@@ -302,7 +302,7 @@ body{
     to{
         margin-top:0%;
     }
-} 
+}  */
 
 
  @media only screen and (max-width:568px){
