@@ -239,7 +239,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:-3vh;
     }
 }
 
@@ -248,7 +248,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 
@@ -257,7 +257,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 
@@ -266,7 +266,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 
@@ -275,7 +275,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 @keyframes button{
@@ -283,7 +283,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 
@@ -292,7 +292,7 @@ body{
         margin-top:100%;
     }
     to{
-        margin-top:0%;
+        margin-top:4vh;
     }
 }
 @keyframes content{
@@ -356,11 +356,20 @@ body{
      #my-img img{
         margin-top: 10vh;
      }
+     @keyframes try{
+        from{
+            margin-top:100%;
+        }
+        to{
+            margin-top:-3vh;
+        }
+    }
      .bottom{
          margin-top: -10vh;
      }
      header{
          padding-top: 300px;
      }
+
  }
 
