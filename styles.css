@@ -193,4 +193,7 @@ button{
          
          margin-top: 20%;
      }
+     .bottom{
+         margin-top: 0vh;
+     }
  }
