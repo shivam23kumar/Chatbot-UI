@@ -327,19 +327,10 @@ body{
      }
     #my-img img{
         margin-top: 10vh;
-        animation-name: button;
-        animation-duration:14s;
-        animation-iteration-count:1;
+        
         
      }
-     @keyframes try{
-        from{
-            margin-top:100%;
-        }
-        to{
-            margin-top:10vh;
-        }
-    }
+    
 
     .bottom{
          position: fixed;
@@ -350,14 +341,6 @@ body{
          padding-top: 300px;
     
     }
-    @keyframes header{
-        from{
-            margin-top:100%;
-        }
-        to{
-            margin-top:-10vh;
-        }
-    }
-
+   
  }
 
