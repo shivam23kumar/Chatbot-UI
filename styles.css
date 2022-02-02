@@ -12,7 +12,7 @@ body{
 }
 #container{
     min-height: 100%;
-    animation: container 1s;
+    
    
 }
 
@@ -22,13 +22,15 @@ body{
     height: 50%;
     background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
     width: 100%;
-    animation: top 2s;
+    
     
     
     /* background-color: rgb(221, 91, 15); */
     /* background-image: linear-gradient(to right, rgb(47, 137, 255),rgb(6, 6, 31)); */
 }
-
+.chat{
+    animation: chat 2s;
+}
 .body-header{
     color: white;
     margin-left: 15%;
@@ -38,13 +40,13 @@ body{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-    animation: h52 3s;
+    
 }
 .body-header h6{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-    animation: h63 4s;
+   
     
     
 }
@@ -52,7 +54,7 @@ body{
     margin: 1vh;
     font-size: large;
     padding: auto;
-    animation: p2 5s;
+    
 }
 
 
@@ -69,7 +71,7 @@ body{
     width: 40%;
     border-radius: 50%;
     margin-top: -3vh;
-    animation: try 6s;
+    animation: try 4s;
 }
 
 /* 
@@ -80,7 +82,7 @@ body{
     margin-right: 5vh;
     height: 50%;
     background-color: white;
-    animation: bottom 7s;
+    
 }
 
 .heading h6{
@@ -102,7 +104,7 @@ body{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     height: 100%;
-    animation: content 8s;
+    animation: content 6s;
     
 }
 
@@ -110,7 +112,7 @@ body{
 .heading{
     margin-top: 4vh;
     /* margin-right: 45vh; */
-    animation: heading 9s;
+    animation: heading 8s;
 }
 
 .content .ques1{
@@ -126,7 +128,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques1 10s;
+    animation: ques1 12s;
     
     
 }
@@ -145,7 +147,7 @@ body{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     align-items: center;
-    animation: ques2 11s;
+    animation: ques2 15s;
 }
 
 .content .ques3{
@@ -162,7 +164,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques3 12s;
+    animation: ques3 17s;
 
 }
 
@@ -180,7 +182,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques4 13s;
+    animation: ques4 18s;
     
 }
 .dot{
@@ -209,7 +211,7 @@ body{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     margin-bottom: 5vh;
-    animation: button 14s;
+    animation: button 20s;
     
 }
 
@@ -284,47 +286,8 @@ body{
     }
 }
 
-@keyframes p2{
-    from{
-        margin-top:100%;
-    }
-    to{
-        margin-top:0%;
-    }
-}
-@keyframes h63{
-    from{
-        margin-top:100%;
-    }
-    to{
-        margin-top:0%;
-    }
-}
-@keyframes h52{
-    from{
-        margin-top:100%;
-    }
-    to{
-        margin-top:0%;
-    }
-}
-@keyframes top{
-    from{
-        margin-top:100%;
-    }
-    to{
-        margin-top:0%;
-    }
-} 
- @keyframes container{
-    from{
-        margin-top:100%;
-    }
-    to{
-        margin-top:0%;
-    }
-} 
-@keyframes bottom{
+
+@keyframes chat{
     from{
         margin-top:100%;
     }
