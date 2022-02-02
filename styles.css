@@ -12,9 +12,8 @@ body{
 }
 #container{
     min-height: 100%;
-    animation-name: container;
-    animation-duration:2s;
-    animation-iteration-count:1;
+    animation: container 1s;
+   
 }
 
 
@@ -23,9 +22,8 @@ body{
     height: 50%;
     background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
     width: 100%;
-    animation-name: top;
-    animation-duration:3s;
-    animation-iteration-count:1;
+    animation: top 2s;
+    
     
     /* background-color: rgb(221, 91, 15); */
     /* background-image: linear-gradient(to right, rgb(47, 137, 255),rgb(6, 6, 31)); */
@@ -40,26 +38,21 @@ body{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-    animation-name: h52;
-    animation-duration:4s;
-    animation-iteration-count:1;
+    animation: h52 3s;
 }
 .body-header h6{
     margin: 1vh;
     font-size: x-large;
     padding: auto;
-    animation-name: h63;
-    animation-duration:5s;
-    animation-iteration-count:1;
+    animation: h63 4s;
+    
     
 }
 .body-header p{
     margin: 1vh;
     font-size: large;
     padding: auto;
-    animation-name: p2;
-    animation-duration:6s;
-    animation-iteration-count:1;
+    animation: p2 5s;
 }
 
 
@@ -76,9 +69,7 @@ body{
     width: 40%;
     border-radius: 50%;
     margin-top: -3vh;
-    animation-name: try;
-    animation-duration:7s;
-    animation-iteration-count:1;
+    animation: try 6s;
 }
 
 /* 
@@ -89,9 +80,7 @@ body{
     margin-right: 5vh;
     height: 50%;
     background-color: white;
-    animation-name: content;
-    animation-duration:8s;
-    animation-iteration-count:1;
+    animation: content 7s;
 }
 
 .heading h6{
@@ -113,9 +102,7 @@ body{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     height: 100%;
-    animation-name: content;
-    animation-duration:8s;
-    animation-iteration-count:1;
+    animation: content 8s;
     
 }
 
@@ -123,9 +110,7 @@ body{
 .heading{
     margin-top: 4vh;
     /* margin-right: 45vh; */
-    animation-name: heading;
-    animation-duration:9s;
-    animation-iteration-count:1;
+    animation: heading 9s;
 }
 
 .content .ques1{
@@ -141,9 +126,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation-name: ques1;
-    animation-duration:10s;
-    animation-iteration-count:1;
+    animation: ques1 10s;
     
     
 }
@@ -162,9 +145,7 @@ body{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     align-items: center;
-    animation-name: ques2;
-    animation-duration:11s;
-    animation-iteration-count:1;
+    animation: ques2 11s;
 }
 
 .content .ques3{
@@ -181,9 +162,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation-name: ques3;
-    animation-duration:12s;
-    animation-iteration-count:1;
+    animation: ques3 12s;
 
 }
 
@@ -201,9 +180,8 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation-name: ques4;
-    animation-duration:13s;
-    animation-iteration-count:1;
+    animation: ques4 13s;
+    
 }
 .dot{
     height: 13px;
@@ -231,9 +209,7 @@ body{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     margin-bottom: 5vh;
-    animation-name: button;
-    animation-duration:14s;
-    animation-iteration-count:1;
+    animation: button 14s;
     
 }
 
@@ -280,6 +256,7 @@ body{
     to{
         margin-top:4vh;
     }
+    
 }
 @keyframes button{
     from{
@@ -391,19 +368,10 @@ body{
          position: fixed;
          margin-top: -10vh;
      }
-    @keyframes bottom{
-        from{
-            margin-top:100%;
-        }
-        to{
-            margin-top:-10vh;
-        }
-    }
+    
     header{
          padding-top: 300px;
-    animation-name: header;
-    animation-duration:8s;
-    animation-iteration-count:1;
+    
     }
     @keyframes header{
         from{
