@@ -128,7 +128,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques1 12s;
+    animation: ques1 10s;
     
     
 }
@@ -147,7 +147,7 @@ body{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     align-items: center;
-    animation: ques2 14s;
+    animation: ques2 11s;
 }
 
 .content .ques3{
@@ -164,7 +164,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques3 15s;
+    animation: ques3 12s;
 
 }
 
@@ -182,7 +182,7 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation: ques4 16s;
+    animation: ques4 13s;
     
 }
 .dot{
@@ -211,7 +211,7 @@ body{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     margin-bottom: 5vh;
-    animation: button 18s;
+    animation: button 15s;
     
 }
 
